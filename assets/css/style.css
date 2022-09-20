@@ -33,7 +33,7 @@ body {
     border-bottom-right-radius: 50px 50px;
 }
 
-.calculator-container button {
+.calculator-container input {
     cursor: pointer;
 }
 
@@ -102,7 +102,7 @@ body {
     flex-direction: column;
 }
 
-.left-side-buttons button, .right-side-buttons button {
+.left-side-buttons input, .right-side-buttons input {
     background-color: var(--symbol-btn);
     border: none;
     color: var(--font-color);
@@ -112,7 +112,7 @@ body {
     padding: 2rem 1rem;
 }
 
-.left-side-buttons button:active, .right-side-buttons button:active {
+.left-side-buttons input:active, .right-side-buttons input:active {
     background-color: #642d43;
 }
 
@@ -123,7 +123,7 @@ body {
     gap: .5rem;
 }
 
-.middle-buttons button {
+.middle-buttons input {
     background-color: var(--number-btn);
     border: none;
     color: var(--font-color);
@@ -133,7 +133,7 @@ body {
     font-size: 1.75rem;
 }
 
-.middle-buttons button:active {
+.middle-buttons input:active {
     background-color: #1d1d1e;
 }
 
@@ -145,7 +145,7 @@ body {
     margin: 1rem 3rem 1rem -4rem;
 }
 
-.clear-button button, .enter-button button {
+.clear-button input, .enter-button input {
     background-color: var(--surround);
     color: var(--surround);
     width: 3rem;

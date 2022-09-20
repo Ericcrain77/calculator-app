@@ -22,38 +22,39 @@
         <p class="title arial">EricCrain <span>CALCULATOR&trade;</span></p>
         <div class="buttons-container">
             <div class="left-side-buttons">
-                <button type="button" value="-">&plus;</button>
-                <button type="button" value="+">&minus;</button>
+                <input type="button" value="&plus;"></input>
+                <input type="button" value="&minus;"></input>
             </div>
             <div class="middle-buttons">
-                <button type="button" value="9">9</button>
-                <button type="button" value="8">8</button>
-                <button type="button" value="7">7</button>
-                <button type="button" value="6">6</button>
-                <button type="button" value="5">5</button>
-                <button type="button" value="4">4</button>
-                <button type="button" value="3">3</button>
-                <button type="button" value="2">2</button>
-                <button type="button" value="1">1</button>
-                <button type="button" value="0">0</button>
-                <button type="button" value=".">.</button>
-                <button type="button" value="00">00</button>
+                <input type="button" value="9"></input>
+                <input type="button" value="8"></input>
+                <input type="button" value="7"></input>
+                <input type="button" value="6"></input>
+                <input type="button" value="5"></input>
+                <input type="button" value="4"></input>
+                <input type="button" value="3"></input>
+                <input type="button" value="2"></input>
+                <input type="button" value="1"></input>
+                <input type="button" value="0"></input>
+                <input type="button" value="."></input>
+                <input type="button" value="00"></input>
             </div>
             <div class="right-side-buttons">
-                <button type="button" value="*">&times;</button>
-                <button type="button" value="/">&divide;</button>
+                <input type="button" value="&times;"></input>
+                <input type="button" value="&divide;"></input>
             </div>
         </div>
         <div class="bottom-buttons">
             <div class="clear-button">
-                <button>Clear</button>
+                <input type="button" value="C" onclick="clearScreen()" />
                 <p>Clear</p>
             </div>
             <div class="enter-button">
-                <button>Enter</button>
+                <input type="button" value="=" onclick="calculate()" />
                 <p>Enter</p>
             </div>
         </div>
     </section>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
