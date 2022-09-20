@@ -112,6 +112,10 @@ body {
     padding: 2rem 1rem;
 }
 
+.left-side-buttons button:active, .right-side-buttons button:active {
+    background-color: #642d43;
+}
+
 .middle-buttons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -127,6 +131,10 @@ body {
     width: 3.5rem;
     border-radius: 50%;
     font-size: 1.75rem;
+}
+
+.middle-buttons button:active {
+    background-color: #1d1d1e;
 }
 
 .bottom-buttons {
