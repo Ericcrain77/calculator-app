@@ -68,7 +68,7 @@ body {
 
 .screen-inner {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: flex-end;
     padding: 1rem 3rem;
     font-size: 3rem;
@@ -76,7 +76,8 @@ body {
     height: 20vh;
     margin: 2rem 0 2rem 1.5rem;
     background-color: var(--screen);
-    color: var(--number)
+    color: var(--number);
+    font-family: 'Orbitron', sans-serif;
 }
 
 .title {
