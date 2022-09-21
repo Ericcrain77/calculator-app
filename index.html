@@ -11,6 +11,7 @@
     <title>Calculator App</title>
 </head>
 <body>
+    <!-- OG GB Section Start -->
     <section class="calculator-container">
         <div class="screen-outer">
             <div class="battery">
@@ -55,6 +56,46 @@
             </div>
         </div>
     </section>
+    <!-- OG GB Section End -->
+    <!-- GBA Section Start -->
+    <section class="gba-container">
+        <div>
+            <input type="button" value="&plus;" onclick="display2('+')" />
+            <input type="button" value="&minus;" onclick="display2('-')" />
+            <input type="button" value="&times;" onclick="display2('*')" />
+            <input type="button" value="&divide;" onclick="display2('/')" />
+            <input type="button" value="&pi;" onclick="display2('&pi;')" />
+            <input type="button" value="&radic;" onclick="display2('&radic;')" />
+            <input type="button" value="x&sup2;" onclick="display2('&sup2;')" />
+            <input type="button" value="x&#8319;" onclick="display2('&#8319;')" />
+        </div>
+        <div>
+            <div>
+                <input type="button" value="Clear" onclick="clearNumbers2()" />
+            </div>
+            <div>
+                <input type="button" value="=" onclick="calculate2()" />
+            </div>
+        </div>
+        <div>
+            <textarea type="text" id="result2" disabled></textarea>
+        </div>
+        <div>
+            <input type="button" value="9" onclick="display2('9')" />
+            <input type="button" value="8" onclick="display2('8')" />
+            <input type="button" value="7" onclick="display2('7')" />
+            <input type="button" value="6" onclick="display2('6')" />
+            <input type="button" value="5" onclick="display2('5')" />
+            <input type="button" value="4" onclick="display2('4')" />
+            <input type="button" value="3" onclick="display2('3')" />
+            <input type="button" value="2" onclick="display2('2')" />
+            <input type="button" value="1" onclick="display2('1')" />
+            <input type="button" value="0" onclick="display2('0')" />
+            <input type="button" value="." onclick="display2('.')" />
+            <input type="button" value="00" onclick="display2('00')" />
+        </div>
+    </section>
+    <!-- GBA Section End-->
 </body>
 <script type="text/javascript" src="./assets/javascript/script.js"></script>
 </html>

@@ -7,6 +7,10 @@
     --number-btn: #363538;
     --symbol-btn: #853C59;
     --font-color: #FFFFFF;
+    --gba-background: #655C9C;
+    --gba-button: #CECECC;
+    --gba-surround: #2F3130;
+    --gba-screen: #595957;
 }
 
 * {
@@ -145,11 +149,15 @@ body {
     color: var(--title);
     text-align: center;
     margin: .5rem auto;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 .clear-button, .enter-button {
     rotate: -45deg;
+}
+
+.clear-button p, .enter-button p {
+    margin-left: .2rem;
 }
 
 .clear-button input, .enter-button input {
@@ -159,4 +167,17 @@ body {
     border-radius: 30px;
     border: none;
     background-color: var(--surround);
+}
+
+.gba-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem auto;
+    background-color: var(--gba-background);
+    width: 1000px;
+    height: 450px;
+    border-radius: 8px;
+    border-bottom-right-radius: 50px 50px;
 }
