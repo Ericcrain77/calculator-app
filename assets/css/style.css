@@ -68,16 +68,17 @@ body {
 
 .screen-inner {
     display: flex;
-    justify-content: start;
-    align-items: flex-end;
-    padding: 1rem 3rem;
-    font-size: 3rem;
-    width: 60%;
-    height: 20vh;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: .5rem;
+    font-size: 2rem;
+    width: 15rem;
+    height: 12.5rem;
     margin: 2rem 0 2rem 1.5rem;
     background-color: var(--screen);
     color: var(--number);
     font-family: 'Orbitron', sans-serif;
+    resize: none;
 }
 
 .title {
@@ -140,28 +141,22 @@ body {
 
 .bottom-buttons {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     color: var(--title);
     text-align: center;
-    margin: 1rem 3rem 1rem -4rem;
+    margin: .5rem auto;
+    gap: 2rem;
+}
+
+.clear-button, .enter-button {
+    rotate: -45deg;
 }
 
 .clear-button input, .enter-button input {
-    background-color: var(--surround);
-    color: var(--surround);
+    color: transparent;
     width: 3rem;
-    height: 1rem;
+    height: .75rem;
+    border-radius: 30px;
     border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    rotate: -45deg;
-}
-
-.clear-button p, .enter-button p {
-    rotate: -45deg;
-    margin: -1rem -3rem 0 0;
-}
-
-.enter-button {
-    margin: -1.5rem 0 0 12rem;
+    background-color: var(--surround);
 }

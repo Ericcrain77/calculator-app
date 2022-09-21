@@ -10,6 +10,6 @@ function display(value) {
     document.getElementById("result").value += value;
 }
 
-function clear() {
-    document.getElementById("result").value = "";
+function clearNumbers() {
+    document.getElementById("result").value = " ";
 }
