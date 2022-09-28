@@ -31,7 +31,7 @@ body {
     flex-direction: column;
     max-width: 500px;
     margin: 4rem auto 0 auto;
-    height: 750px;
+    height: 775px;
     background-color: var(--background);
     border-radius: 8px;
     border-bottom-right-radius: 50px 50px;
@@ -39,6 +39,32 @@ body {
 
 .calculator-container input {
     cursor: pointer;
+}
+
+.case-lines {
+    display: flex;
+    flex-direction: column;
+}
+
+.vert-lines {
+    display: flex;
+    flex-direction: row;
+}
+
+.vertical, .vertical2 {
+    height: 20px;
+    width: 4px;
+    background-color: #b0a6a7;
+}
+
+.vertical {
+    margin: 0 27.75rem 0 1.5rem;
+}
+
+.horizontal-line {
+    height: 3px;
+    width: 100%;
+    background-color: #b0a6a7;
 }
 
 .screen-surround {
@@ -49,11 +75,11 @@ body {
 .screen-outer {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 85%;
     background-color: var(--surround);
     border-radius: 8px;
     border-bottom-right-radius: 50px 50px;
-    margin: 3.5rem auto .5rem auto;
+    margin: 1.5rem auto .5rem auto;
 }
 
 .battery-screen {
@@ -81,7 +107,34 @@ body {
 }
 
 .matrix-lines {
-    margin: auto;
+    display: flex;
+    color: var(--font-color);
+    font-size: .75rem;
+    margin: .75rem .5rem 0 .5rem;
+}
+
+.red-line, .blue-line {
+    background-color: var(--symbol-btn);
+    height: 3px;
+    width: 120px;
+    margin: 0 .5rem;
+}
+
+.blue-line, .blue-line2 {
+    background-color: var(--title);
+    margin-top: .25rem;
+}
+
+.red-line2, .blue-line2 {
+    background-color: var(--symbol-btn);
+    height: 3px;
+    width: 50px;
+    margin-left: .5rem;
+}
+
+.blue-line2 {
+    background-color: var(--title);
+    margin-top: .25rem;
 }
 
 .screen-inner {
@@ -90,9 +143,9 @@ body {
     justify-content: flex-start;
     padding: .5rem;
     font-size: 2rem;
-    width: 15rem;
+    width: 16.5rem;
     height: 12.5rem;
-    margin: 3.5rem 0 2rem 1.5rem;
+    margin: 1.5rem 0 2rem 1.5rem;
     background-color: var(--screen);
     color: var(--number);
     font-family: 'Orbitron', sans-serif;
@@ -286,13 +339,17 @@ body {
         margin: 2rem auto .5rem auto;
     }
 
+    .matrix-lines {
+        font-size: .65rem;
+    }
+
     .battery {
         margin: auto 0 auto 1rem;
     }
 
     .screen-inner {
-        width: 11.5rem;
-        height: 12rem;
+        width: 15rem;
+        height: 13rem;
         margin: 2rem 0 2rem 1rem;
     }
 }
