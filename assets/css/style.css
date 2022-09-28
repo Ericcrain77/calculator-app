@@ -29,9 +29,9 @@ body {
 .calculator-container {
     display: flex;
     flex-direction: column;
-    width: 28vw;
-    margin: 6rem auto 0 auto;
-    height: 75vh;
+    max-width: 500px;
+    margin: 4rem auto 0 auto;
+    height: 750px;
     background-color: var(--background);
     border-radius: 8px;
     border-bottom-right-radius: 50px 50px;
@@ -41,14 +41,24 @@ body {
     cursor: pointer;
 }
 
+.screen-surround {
+    display: flex;
+    flex-direction: column;
+}
+
 .screen-outer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 80%;
     background-color: var(--surround);
     border-radius: 8px;
     border-bottom-right-radius: 50px 50px;
-    margin: 2rem auto .5rem auto;
+    margin: 3.5rem auto .5rem auto;
+}
+
+.battery-screen {
+    display: flex;
+    flex-direction: row;
 }
 
 .battery {
@@ -70,6 +80,10 @@ body {
     border-radius: 50%;
 }
 
+.matrix-lines {
+    margin: auto;
+}
+
 .screen-inner {
     display: flex;
     flex-wrap: wrap;
@@ -78,7 +92,7 @@ body {
     font-size: 2rem;
     width: 15rem;
     height: 12.5rem;
-    margin: 2rem 0 2rem 1.5rem;
+    margin: 3.5rem 0 2rem 1.5rem;
     background-color: var(--screen);
     color: var(--number);
     font-family: 'Orbitron', sans-serif;
@@ -169,7 +183,8 @@ body {
     background-color: var(--surround);
 }
 
-.gba-container {
+/* GBA Scientific Calculator Styling Start */
+/* .gba-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -253,4 +268,31 @@ body {
     border-radius: 100%;
     border: none;
     color: transparent;
+} */
+/* GBA Scientific Calculator Styling End */
+
+/* Mobile responsiveness */
+@media screen and (max-width: 500px) {
+    .calculator-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        margin: 2rem .1rem 0 .1rem;
+    }
+
+    .screen-outer {
+        width: 75%;
+        margin: 2rem auto .5rem auto;
+    }
+
+    .battery {
+        margin: auto 0 auto 1rem;
+    }
+
+    .screen-inner {
+        width: 11.5rem;
+        height: 12rem;
+        margin: 2rem 0 2rem 1rem;
+    }
 }
