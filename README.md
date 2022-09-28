@@ -1,6 +1,6 @@
 # Calculator App
 
-Deployed Application: 
+Deployed Application: https://ericcrain77.github.io/calculator-app/
 
 GitHub Repository: https://github.com/Ericcrain77/calculator-app
 
@@ -9,12 +9,15 @@ GitHub Repository: https://github.com/Ericcrain77/calculator-app
 
 ## Table of Contents
 * [Description](#description)
-* [Screenshots](#screenshots)
+* [Screenshot](#screenshot)
 * [Technologies](#technologies)
 * [Questions](#questions)
 
 ## Description
 A simple calculator web application. 
+
+## Screenshot
+![image](assets/images/)
 
 ## Technologies
 This website is being built with HTML, CSS, and vanilla JavaScript.
