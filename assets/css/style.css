@@ -46,6 +46,8 @@ body {
     flex-direction: column;
 }
 
+
+
 .vert-lines {
     display: flex;
     flex-direction: row;
@@ -58,7 +60,25 @@ body {
 }
 
 .vertical {
-    margin: 0 27.75rem 0 1.5rem;
+    margin: 0 1rem 0 1.5rem;
+}
+
+.vertical3, .vertical4, .vertical5 {
+    height: 5px;
+    width: 4px;
+    background-color: #b0a6a7;
+    margin-right: .25rem;
+}
+
+.offon {
+    color: var(--background);
+    background-color: #b0a6a7;
+    border-radius: 100px;
+    margin: .2rem 21.25rem 0 -2rem;
+    height: 13px;
+    font-size: .75rem;
+    padding: 0 .25rem;
+    
 }
 
 .horizontal-line {
