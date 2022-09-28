@@ -17,7 +17,7 @@ GitHub Repository: https://github.com/Ericcrain77/calculator-app
 A simple calculator web application. 
 
 ## Screenshot
-![image](assets/images/)
+![Screenshot](assets/images/screenshot.jpg)
 
 ## Technologies
 This website is being built with HTML, CSS, and vanilla JavaScript.
