@@ -305,31 +305,90 @@ body {
 
 @media screen and (max-width: 425px) {
     .calculator-container {
-        position: absolute;
-        top: 0;
-        left: 0;
         width: 90%;
-        margin: 2rem .85rem;
+        height: 685px;
+        margin: 2rem 1.25rem;
     }
 
     .screen-outer {
         width: 90%;
-        margin: 2rem auto .5rem auto;
+        margin: 1rem auto .5rem auto;
     }
 
     .offon {
-        margin: .2rem 15rem 0 -2rem;
+        margin: .2rem 12.5rem 0 -2rem;
     }
 
     .matrix-lines p {
-        margin-top: .1rem;
-        font-size: .45rem;
+        font-size: .5rem;
+    }
+
+    .red-line, .blue-line {
+        height: 2px;
+        width: 85px;
+    }
+    
+    .blue-line, .blue-line2 {
+        margin-top: .25rem;
+    }
+    
+    .red-line2, .blue-line2 {
+        height: 2px;
+        width: 35px;
+    }
+
+    .battery {
+        gap: .5rem;
+        margin: auto 0rem auto .75rem;
+        font-size: 8px;
+    }
+
+    .dot {
+        height: 8px;
+        width: 8px;
     }
 
     .screen-inner {
-        width: 14rem;
+        width: 12rem;
         height: 11rem;
+        font-size: 1.5rem;
         margin: 1rem 0 2rem 1rem;
+    }
+
+    .title {
+        font-size: 1rem;
+        margin-left: .75rem;
+    }
+    
+    .title span {
+        font-size: 1.25rem;
+    }
+
+    .buttons-container {
+        margin-top: .5rem;
+    }
+    
+    .left-side-buttons input, .right-side-buttons input {
+        font-size: 2.5rem;
+        padding: 1.5rem 1rem;
+    }
+    
+    .middle-buttons {
+        gap: .75rem;
+    }
+    
+    .middle-buttons input {
+        height: 3rem;
+        width: 3rem;
+        font-size: 1.5rem;
+    }
+    
+    .bottom-buttons {
+        gap: 1.75rem;
+    }
+    
+    .clear-button input, .enter-button input {
+        width: 2.5rem;
     }
 }
 
