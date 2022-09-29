@@ -463,13 +463,13 @@ body {
 @media screen and (max-width: 320px) {
     .calculator-container {
         width: 92%;
-        height: 600px;
+        height: 575px;
         margin: 2rem .85rem 0 .85rem;
     }
 
     .screen-outer {
         width: 90%;
-        margin: 2rem auto .5rem auto;
+        margin: 1rem auto .5rem auto;
     }
 
     .offon {
