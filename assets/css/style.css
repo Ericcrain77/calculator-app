@@ -325,7 +325,7 @@ body {
 
     .red-line, .blue-line {
         height: 2px;
-        width: 85px;
+        width: 110px;
     }
     
     .blue-line, .blue-line2 {
@@ -334,7 +334,7 @@ body {
     
     .red-line2, .blue-line2 {
         height: 2px;
-        width: 35px;
+        width: 40px;
     }
 
     .battery {
@@ -349,9 +349,9 @@ body {
     }
 
     .screen-inner {
-        width: 12rem;
+        width: 13.5rem;
         height: 11rem;
-        font-size: 1.5rem;
+        font-size: 1.75rem;
         margin: 1rem 0 2rem 1rem;
     }
 
@@ -362,6 +362,74 @@ body {
     
     .title span {
         font-size: 1.25rem;
+    }
+
+    .buttons-container {
+        margin-top: .75rem;
+    }
+    
+    .left-side-buttons input, .right-side-buttons input {
+        font-size: 2.75rem;
+        margin-top: 1.25rem;
+        padding: 1.75rem 1.25rem;
+    }
+    
+    .middle-buttons {
+        gap: .75rem;
+    }
+    
+    .middle-buttons input {
+        height: 3.25rem;
+        width: 3.25rem;
+        font-size: 1.75rem;
+    }
+    
+    .bottom-buttons {
+        gap: 2rem;
+    }
+    
+    .clear-button input, .enter-button input {
+        width: 3rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .calculator-container {
+        width: 90%;
+        height: 685px;
+        margin: 2rem 1.25rem;
+    }
+
+    .screen-outer {
+        width: 90%;
+        margin: 1rem auto .5rem auto;
+    }
+
+    .offon {
+        margin: .2rem 12.5rem 0 -2rem;
+    }
+
+    .matrix-lines p {
+        font-size: .5rem;
+    }
+
+    .red-line, .blue-line {
+        height: 2px;
+        width: 85px;
+    }
+    
+    .blue-line, .blue-line2 {
+        margin-top: .25rem;
+    }
+    
+    .red-line2, .blue-line2 {
+        height: 2px;
+        width: 35px;
+    }
+
+    .screen-inner {
+        width: 12rem;
+        font-size: 1.5rem;
     }
 
     .buttons-container {
