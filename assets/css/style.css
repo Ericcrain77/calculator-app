@@ -317,6 +317,7 @@ body {
 
     .offon {
         margin: .2rem 12.5rem 0 -2rem;
+        -webkit-text-fill-color: var(--background);
     }
 
     .matrix-lines p {
@@ -372,6 +373,10 @@ body {
         font-size: 2.75rem;
         margin-top: 1.25rem;
         padding: 1.75rem 1.25rem;
+        -webkit-padding-before: 1.75rem;
+        -webkit-padding-end: 1.25rem;
+        -webkit-padding-after: 1.75rem;
+        -webkit-padding-start: 1.25rem;
     }
     
     .middle-buttons {
@@ -382,6 +387,9 @@ body {
         height: 3.25rem;
         width: 3.25rem;
         font-size: 1.75rem;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
     }
     
     .bottom-buttons {
