@@ -309,7 +309,7 @@ body {
         top: 0;
         left: 0;
         width: 90%;
-        margin: 2rem 1rem;
+        margin: 2rem .85rem;
     }
 
     .screen-outer {
@@ -334,17 +334,44 @@ body {
 }
 
 @media screen and (max-width: 320px) {
-    .calculator-container {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        margin: 2rem 1rem;
+    .screen-outer {
+        width: 90%;
+        margin: 2rem auto .5rem auto;
+    }
+
+    .offon {
+        margin: .2rem 9.5rem 0 -2rem;
+    }
+
+    .matrix-lines p {
+        margin-top: .1rem;
+        font-size: 6px;
+    }
+
+    .red-line, .blue-line {
+        height: 2px;
+        width: 85px;
+    }
+    
+    .blue-line, .blue-line2 {
+        margin-top: .25rem;
+    }
+    
+    .red-line2, .blue-line2 {
+        height: 2px;
+        width: 25px;
+    }
+
+    .battery {
+        gap: .5rem;
+        margin: auto .5rem auto .75rem;
+        font-size: 6px;
     }
 
     .screen-inner {
-        width: 9rem;
+        width: 10rem;
         height: 8rem;
-        margin: 2rem 0 2rem 1rem;
+        font-size: 1rem;
+        margin: 1rem 0 1.5rem .5rem;
     }
 }
