@@ -274,7 +274,7 @@ body {
         position: absolute;
         top: 0;
         left: 0;
-        width: 100vw;
+        width: 90%;
         margin: 2rem 1rem;
     }
 
@@ -283,8 +283,13 @@ body {
         margin: 2rem auto .5rem auto;
     }
 
-    .matrix-lines {
-        font-size: .65rem;
+    .offon {
+        margin: .2rem 19.5rem 0 -2rem;
+    }
+
+    .matrix-lines p {
+        margin-top: .1rem;
+        font-size: .45rem;
     }
 
     .battery {
@@ -292,8 +297,54 @@ body {
     }
 
     .screen-inner {
-        width: 15rem;
+        width: 14rem;
         height: 13rem;
+        margin: 1rem 0 2rem 1rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .calculator-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 90%;
+        margin: 2rem 1rem;
+    }
+
+    .screen-outer {
+        width: 90%;
+        margin: 2rem auto .5rem auto;
+    }
+
+    .offon {
+        margin: .2rem 15rem 0 -2rem;
+    }
+
+    .matrix-lines p {
+        margin-top: .1rem;
+        font-size: .45rem;
+    }
+
+    .screen-inner {
+        width: 14rem;
+        height: 11rem;
+        margin: 1rem 0 2rem 1rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .calculator-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        margin: 2rem 1rem;
+    }
+
+    .screen-inner {
+        width: 9rem;
+        height: 8rem;
         margin: 2rem 0 2rem 1rem;
     }
 }
