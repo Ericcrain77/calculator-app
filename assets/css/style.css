@@ -215,6 +215,10 @@ body {
     margin: 1rem .25rem .25rem .25rem;
     border-radius: 8px;
     padding: 2rem 1rem;
+    -webkit-padding-before: 2rem;
+    -webkit-padding-end: 1rem;
+    -webkit-padding-after: 2rem;
+    -webkit-padding-start: 1rem;
 }
 
 .left-side-buttons input:active, .right-side-buttons input:active {
@@ -300,6 +304,14 @@ body {
         width: 14rem;
         height: 13rem;
         margin: 1rem 0 2rem 1rem;
+    }
+
+    .left-side-buttons input, .right-side-buttons input {
+        padding: 2rem 1rem;
+        -webkit-padding-before: 2rem;
+        -webkit-padding-end: 1rem;
+        -webkit-padding-after: 2rem;
+        -webkit-padding-start: 1rem;
     }
 }
 
@@ -447,6 +459,10 @@ body {
     .left-side-buttons input, .right-side-buttons input {
         font-size: 2.5rem;
         padding: 1.5rem 1rem;
+        -webkit-padding-before: 1.5rem;
+        -webkit-padding-end: 1rem;
+        -webkit-padding-after: 1.5rem;
+        -webkit-padding-start: 1rem;
     }
     
     .middle-buttons {
@@ -457,6 +473,9 @@ body {
         height: 3rem;
         width: 3rem;
         font-size: 1.5rem;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
     }
     
     .bottom-buttons {
@@ -537,6 +556,10 @@ body {
     .left-side-buttons input, .right-side-buttons input {
         font-size: 2rem;
         padding: 1rem .5rem;
+        -webkit-padding-before: 1rem;
+        -webkit-padding-end: .5rem;
+        -webkit-padding-after: 1rem;
+        -webkit-padding-start: .5rem;
     }
     
     .middle-buttons {
@@ -547,6 +570,9 @@ body {
         height: 2.5rem;
         width: 2.5rem;
         font-size: 1.25rem;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
     }
     
     .bottom-buttons {
