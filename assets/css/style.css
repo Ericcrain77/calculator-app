@@ -400,8 +400,8 @@ body {
         width: 3.25rem;
         font-size: 1.75rem;
         border-radius: 50%;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
     }
     
     .bottom-buttons {
@@ -474,8 +474,8 @@ body {
         width: 3rem;
         font-size: 1.5rem;
         border-radius: 50%;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
     }
     
     .bottom-buttons {
@@ -571,8 +571,8 @@ body {
         width: 2.5rem;
         font-size: 1.25rem;
         border-radius: 50%;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
     }
     
     .bottom-buttons {
