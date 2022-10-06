@@ -239,6 +239,8 @@ body {
     height: 3.5rem;
     width: 3.5rem;
     border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
     font-size: 1.75rem;
 }
 
@@ -400,8 +402,6 @@ body {
         width: 3.25rem;
         font-size: 1.75rem;
         border-radius: 50%;
-        -webkit-border-radius: 50px;
-        -moz-border-radius: 50px;
     }
     
     .bottom-buttons {
