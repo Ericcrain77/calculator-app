@@ -238,7 +238,7 @@ body {
     color: var(--font-color);
     height: 3.5rem;
     width: 3.5rem;
-    -webkit-border-radius: 100px;
+    -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
     font-size: 1.75rem;
@@ -402,6 +402,8 @@ body {
         height: 3.25rem;
         width: 3.25rem;
         font-size: 1.75rem;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
         border-radius: 50%;
     }
     
@@ -474,9 +476,9 @@ body {
         height: 3rem;
         width: 3rem;
         font-size: 1.5rem;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
         border-radius: 50%;
-        -webkit-border-radius: 50px;
-        -moz-border-radius: 50px;
     }
     
     .bottom-buttons {
@@ -571,9 +573,9 @@ body {
         height: 2.5rem;
         width: 2.5rem;
         font-size: 1.25rem;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
         border-radius: 50%;
-        -webkit-border-radius: 50px;
-        -moz-border-radius: 50px;
     }
     
     .bottom-buttons {
