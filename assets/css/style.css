@@ -238,6 +238,7 @@ body {
     color: var(--font-color);
     height: 3.5rem;
     width: 3.5rem;
+    -webkit-mask-image: -webkit-radial-gradient(white, black);
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -402,6 +403,7 @@ body {
         height: 3.25rem;
         width: 3.25rem;
         font-size: 1.75rem;
+        -webkit-mask-image: -webkit-radial-gradient(white, black);
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
         border-radius: 50%;
@@ -476,6 +478,7 @@ body {
         height: 3rem;
         width: 3rem;
         font-size: 1.5rem;
+        -webkit-mask-image: -webkit-radial-gradient(white, black);
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
         border-radius: 50%;
@@ -573,6 +576,7 @@ body {
         height: 2.5rem;
         width: 2.5rem;
         font-size: 1.25rem;
+        -webkit-mask-image: -webkit-radial-gradient(white, black);
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
         border-radius: 50%;
